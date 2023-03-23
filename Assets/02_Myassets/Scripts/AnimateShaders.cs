@@ -15,4 +15,12 @@ public class AnimateShaders : MonoBehaviour
             mat.SetFloat("_Visibility", value);
         }
     }
+
+    private void OnDestroy()
+    {
+        foreach (Material mat in materials)
+        {
+            mat.SetFloat("_Visibility", 0);
+        }
+    }
 }
