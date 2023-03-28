@@ -1787,6 +1787,7 @@ GameObject:
   - component: {fileID: 4227821529624187610}
   - component: {fileID: 5740454190424247813}
   - component: {fileID: 8273100027109965332}
+  - component: {fileID: 3204110666305107832}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -1879,6 +1880,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &3204110666305107832
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8873798482123598510}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.021200001, y: 0.021200005, z: 0.023988364}
+  m_Center: {x: 0.000000007450581, y: -1.699839e-10, z: -0.0013941837}
 --- !u!1 &8965289074981053851
 GameObject:
   m_ObjectHideFlags: 0

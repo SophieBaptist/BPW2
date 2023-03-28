@@ -44,7 +44,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 1, g: 0.62461215, b: 0.115531124, a: 1}
+  m_Color: {r: 0.34531865, g: 0.7288643, b: 0.754717, a: 1}
   m_Intensity: 30
   m_Range: 10
   m_SpotAngle: 45
@@ -955,6 +955,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5273277677882655743}
   - component: {fileID: 8404546366721633528}
+  - component: {fileID: 599966460135744838}
   m_Layer: 0
   m_Name: lantaarn
   m_TagString: Untagged
@@ -971,7 +972,7 @@ Transform:
   m_GameObject: {fileID: 4784409087934798149}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.40324, y: 8.67, z: 37.21}
-  m_LocalScale: {x: 0.19478683, y: 0.19478683, z: 0.19478683}
+  m_LocalScale: {x: 0.15690859, y: 0.15690859, z: 0.15690859}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 9034173066293041306}
@@ -1039,6 +1040,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &599966460135744838
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4784409087934798149}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 21.63076, z: 1}
+  m_Center: {x: 0, y: 10.315379, z: 0}
 --- !u!1 &4978581768606711918
 GameObject:
   m_ObjectHideFlags: 0

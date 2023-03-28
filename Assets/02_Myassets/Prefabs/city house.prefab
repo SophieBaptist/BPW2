@@ -673,6 +673,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3551562636739325755}
+  - component: {fileID: 7211008425423878262}
   m_Layer: 0
   m_Name: city house
   m_TagString: Untagged
@@ -717,6 +718,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &7211008425423878262
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4180043910432028033}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 81863b89d7dd24041b77ee3e3e07a820, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4417879054285994676
 GameObject:
   m_ObjectHideFlags: 0
@@ -728,6 +749,7 @@ GameObject:
   - component: {fileID: 376061515676562526}
   - component: {fileID: 8990689417815769792}
   - component: {fileID: 703500043521990175}
+  - component: {fileID: 8049515381739621227}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -800,6 +822,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8049515381739621227
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4417879054285994676}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.1199996, y: 2.3988369, z: 2.1200001}
+  m_Center: {x: -0.00000023841858, y: -0.13941886, z: -0.0000009536743}
 --- !u!1 &4427219582328958122
 GameObject:
   m_ObjectHideFlags: 0
