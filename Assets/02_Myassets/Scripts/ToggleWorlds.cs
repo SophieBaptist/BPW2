@@ -11,6 +11,10 @@ public class ToggleWorlds : MonoBehaviour
     public Material SkyBox1;
     public Material SkyBox2;
     bool isInteractable = true;
+    public GameObject road;
+    public GameObject roadProps;
+    public GameObject lanterns;
+    public GameObject plane;
 
     void Start()
     {
@@ -47,12 +51,20 @@ public class ToggleWorlds : MonoBehaviour
                 RenderSettings.skybox = SkyBox2;
                 DynamicGI.UpdateEnvironment();
             }
-
-            NatureWorld.SetActive(!NatureWorld.activeSelf);
-            SetInactiveNature.SetActive(false);
+            Invoke("ToggleEnvironment", Time.deltaTime);
             isInteractable = false;
             Invoke("ResetInteractable", 0.1f);
         }
+    }
+
+    void ToggleEnvironment()
+    {
+        road.SetActive(!road.activeSelf);
+        roadProps.SetActive(!roadProps.activeSelf);
+        lanterns.SetActive(!lanterns.activeSelf);
+        plane.SetActive(!plane.activeSelf);
+        NatureWorld.SetActive(!NatureWorld.activeSelf);
+        SetInactiveNature.SetActive(false);
     }
 
     void ResetInteractable()

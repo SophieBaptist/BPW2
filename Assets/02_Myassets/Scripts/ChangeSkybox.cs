@@ -12,6 +12,10 @@ public class ChangeSkybox : MonoBehaviour
     public GameObject WorldSwitch;
     public GameObject SwitchCollider;
     public GameObject SetActive;
+    public GameObject streets;
+    public GameObject streetprops;
+    public GameObject lanterns;
+    public GameObject plane;
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +33,10 @@ public class ChangeSkybox : MonoBehaviour
         SetActive.SetActive(true);
         WorldSwitch.SetActive(false);
         SwitchCollider.SetActive(true);
+        streets.SetActive(false);
+        streetprops.SetActive(false);
+        lanterns.SetActive(false);
+        plane.SetActive(false);
         Debug.Log("switch skybox");
         DynamicGI.UpdateEnvironment();
     }
